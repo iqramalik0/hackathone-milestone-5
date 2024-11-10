@@ -1,0 +1,157 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Aerial','sans-serif';
+  }
+  
+  body {
+    background-color: #c8bedd;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #041c35;
+    font-size: 2.5rem;
+    margin: 40px 0;
+    font-weight: 700;
+  }
+  
+  form {
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  fieldset {
+    border: 2px solid #14527a;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  legend {
+    font-size: 1.5rem;
+    color: #14527a;
+    font-weight: 600;
+    padding: 0 10px;
+  }
+  
+  label {
+    font-size: 1.1rem;
+    color: #34495e;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 2px solid #bdc3c7;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  input[type="text"], input[type="email"], input[type="tel"] {
+    background-color: #ecf0f1;
+  }
+  
+  textarea {
+    background-color: #ecf0f1;
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #194ea8;
+    color: white;
+    padding: 15px 25px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #2980B9 ;
+     ;
+    
+  }
+  
+  
+  #submission-form-display {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    outline: none;
+  }
+  
+  #submission-form-display h2 {
+    color: #051e36;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  #submission-form-display p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    line-height: 1.6;
+  }
+  
+  #submission-form-display .info-item {
+    font-weight: 600;
+    color: #2980B9;
+  }
+  
+  
+  @media (max-width: 768px) {
+    form {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    input, textarea {
+      font-size: 2rem;
+    }
+  
+    button {
+      padding: 12px 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    form {
+      padding: 15px;
+    }
+  
+    input, textarea {
+      font-size: 2rem;
+    }
+  
+    button {
+      padding: 10px 15px;
+    }
+  }
+  
